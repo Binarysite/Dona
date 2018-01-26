@@ -1,47 +1,45 @@
-# Angular 2 NativeScript Boilerplate
+# Doná
 
-An easy to use boilerplate for Angular 2 applications on Android and iOS
+Doná es una aplicación que tiene como principal objetivo hacer más ameno el hecho de donar dinero del saldo a instituciones sin fines de lucro asociadas con Antel.
 
-Features:
-   - Typescript, SASS
-   - Easy to use Gulp workflow
-   - Separate your build directory from your source
+Doná utiliza el servicio de donaciones a través de mensajes de texto de Antel para realizar las donaciones, por lo que no funciona con otras operadoras.
 
-This was built in efforts to find an easy to use Typescript workflow, and at
-an attempt to make a lightweight boilerplate without all of the additional
-bloat. It can be assumed you know how to implement Angular 2, or are learning,
-but setting up an easy to use build-system is non-trivial.
 
-# Getting Started
+#Set up
 
-1. Install this repository
-```
-git clone https://github.com/c4wrd/angular2-nativescript-boilerplate.git MyApp
-```
-
-2. Install node packages
+1. Install node packages
 ```
 cd MyApp
 npm install
 npm install --only=dev
 ```
 
-3. Modify the src directory, this is where your application will live
+2. Modify the src directory, this is where your application will live
 
-4. Add the platforms you desire
+3. Add the platforms you desire
 ```
 tns platform add ios
 tns platform add android
 ```
 
-5. Build with Gulp
+4. Build with Gulp
 ```
 gulp
 ```
 
-6. Emulate or deploy!
+5. Emulate or deploy!
 ```
 tns emulate ios
 ```
 
-This README is currently being written...
+# License
+
+MIT License
+
+Copyright (c) 2017 Binary
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
