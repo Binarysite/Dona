@@ -1,0 +1,18 @@
+{
+  "generator-ngx-rocket": {
+    "version": "3.1.1",
+    "props": {
+      "appName": "Dona",
+      "target": [
+        "web"
+      ],
+      "pwa": false,
+      "ui": "material",
+      "layout": "simple",
+      "auth": false,
+      "projectName": "Dona",
+      "packageManager": "npm",
+      "mobile": []
+    }
+  }
+}

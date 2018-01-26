@@ -10,22 +10,18 @@ Doná utiliza el servicio de donaciones a través de mensajes de texto de Antel 
 1. Install node packages
 ```
 npm install
-npm install --only=dev
-```
 
-2. Modify the src directory, this is where your application will live
+2. Install Android Studio
 
-3. Install Android Studio
-
-4. Add the platforms you desire
+3. Add the platforms you desire
 ```
 tns platform add ios
 tns platform add android
 ```
 
-5. Build with Gulp
+4. Build with Gulp
 ```
-gulp
+npm start
 ```
 
 6. Emulate or deploy!
